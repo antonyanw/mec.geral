@@ -22,15 +22,14 @@
 
 body{
     background-color:#bb9395;
-    min-width: 350px;
-    max-width: 800px;
 }
+
 header {
     background-image: linear-gradient(to bottom, var(--color4), var(--color2));
     padding: 10px;
     text-align:center;
     width: 600px;
-    margin: 10px auto 15px;
+    margin: 10px auto 10px;
     border: black solid 1px;
     border-radius: 10px;
     box-shadow: 2px 5px 7px rgba(190, 74, 74, 0.582)0, 0, 0, 0.438;
@@ -49,16 +48,13 @@ div.newton{
     border: solid 2px black;
 }
 
-ul{
-    display: flexbox;
-}
-
 li.ine{
     border: black solid;
     padding: 3px;
     display:flex;
     width: 65px;
     border-radius: 5px;
+    margin:5px 0px 5px;
     background-color: var(--color3);
 }
 
@@ -72,6 +68,7 @@ dt.fre{
     padding: 3px;
     display:flex;
     width: 145px;
+    margin:5px 0px 5px;
     border-radius: 5px;
     background-color: var(--color3);
 }
@@ -86,6 +83,7 @@ dt.are{
     padding: 3px;
     display:flex;
     width: 130px;
+    margin:5px 0px 5px;
     border-radius: 5px;
     background-color: var(--color3);
 }
@@ -98,13 +96,7 @@ dt.are:hover{
 div.newton dd{
     font: italic bold 1em Arial, sans-serif;
     max-width: 800px;
-}
-
-
-p.teste{
-    border: solid 2px black;
-    display:flex ;
-    width: 300px;
+    width: 560px;
 }
 
 div.newton a{
@@ -113,6 +105,21 @@ div.newton a{
     font-weight: bolder;
     display: block;
     padding: 5px 10px;
+}
+
+div.bloco{
+    background-image: linear-gradient(to bottom, var(--color5), var(--color3));
+    margin: 10px auto 10px;
+    border: solid 2px black;
+    width: 600px;
+    padding: 10px;
+}
+
+
+div.bloco > img{
+    display: block;
+    border: solid 2px black ;
+    margin: auto;
 }
 
 main h4 h3{
